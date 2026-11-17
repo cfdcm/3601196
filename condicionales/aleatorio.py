@@ -38,3 +38,16 @@ else:
 
 
 print(f"La cantidad de veces que cayó 1 fue: {conteo}")
+
+
+# ----------------------------------------
+
+deporte = choice(["futbol", "beisbol", "natacion"])
+grado = choice(["primero", "segundo", "tercero", "cuarto", "quinto"])
+
+print(deporte)
+
+if deporte == "futbol":
+    print("Entrenar 3 veces/semana")
+elif deporte == "beisbol":
+    print("Entrenar ")
